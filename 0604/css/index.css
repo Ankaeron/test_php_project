@@ -1,0 +1,147 @@
+.navbar{
+    background-color: coral !important;
+}
+
+/* header{
+    background-color: chocolate;
+    height:80px !important;
+} */
+
+.row headermain {
+    height:80px !important;
+}
+
+ul {
+    display: table;
+    list-style-type: none;
+    /* display: flex;
+    flex-direction: row;
+    align-items: center; */
+}
+.list {
+
+    vertical-align: middle;
+    display: table-cell;
+}
+.svgs{
+    padding: 0px 0px 0px 30rem;
+}
+.header li{
+    padding: 15px 0px 0px 30px;
+}
+.col-3{
+    padding: 15px 0px 0px 20px;
+}
+
+li{
+    list-style-type: none;
+}
+.col-xl-4 img{
+    margin: auto;    
+    display: block;
+}
+
+section{
+    padding: 60px;
+}
+
+svg {
+    margin: 0px 0px 0px 15px;
+}
+
+.img-fluid {
+    -webkit-filter: grayscale(0);
+    filter: none;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
+    align-self: center;
+    width: 98%;
+    height: 98%;
+    object-fit: cover;
+    display: inline;
+}
+
+.img-fluid:hover {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.thumb {
+    padding: 5px;
+}
+
+.parent{
+    position: relative;
+}
+.child {
+    position: absolute;
+    top: 90%;
+    height: 10%;
+    width: 95%;
+    left: 2%;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+
+.black-box {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.span_one{
+   position: absolute;
+   bottom: 3px !important;
+   left: 40px;
+   background-color: rgba(255, 255, 255, 0.7);
+   padding: 4px !important;
+   border-radius: 0px !important;
+   color: #000;
+   font-size: 12px !important;
+}
+
+.span_two{
+   position: absolute;
+   bottom: 3px !important;
+   left: 120px;
+   background-color: rgba(255, 255, 255, 0.7);
+   padding: 4px !important;
+   border-radius: 0px !important;
+   color: #000;
+   font-size: 12px !important;
+}
+
+.span_three{
+   position: absolute;
+   bottom: 3px !important;
+   left: 200px;
+   background-color: rgba(255, 255, 255, 0.7);
+   padding: 4px !important;
+   border-radius: 0px !important;
+   color: #000;
+   font-size: 12px !important;
+}
+
+
+@media screen and (min-width: 768px) {
+    .test {
+      display: block !important;
+    }
+    .toggler {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .test {
+      display: none !important;
+    }
+    .toggler {
+        display: block !important;
+        background-color: transparent;
+        border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+        line-height: 1;
+    }
+
+}
